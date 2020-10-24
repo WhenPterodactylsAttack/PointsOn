@@ -19,7 +19,6 @@ html {
     margin: 0 auto;
 }
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/background.png);
     background-size: cover;
@@ -28,11 +27,10 @@ header {
     color: rgb(53, 53, 53);
 }
 
-
 .hero-text-box {
     position: absolute;
     padding: 50px 100px;
-    top: 50%;
+    top: 45%;
     Left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -42,6 +40,18 @@ header {
     color: rgb(53, 53, 53);
 }
 
+.view-box {
+    position: absolute;
+    padding: 25px 50px;
+    top: 80%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 75px;
+    border-bottom: 10px solid rgb(56, 56, 56);
+    color: rgb(53, 53, 53);
+}
 
 h1 {
     margin: 0;
