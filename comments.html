@@ -3,11 +3,13 @@
 <head>
     <link rel="stylesheet" type="homepagestyle/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="homepagestyle/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/homepagestyle.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/comments.css">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type='text/css'>
     <title>PointsOn</title>
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="ol662vMB"></script>
     <header>
         <div class="row">
             <img src="resources/img/Channel Logo Large 2.png" alt="PointsOn logo" class="logo">
@@ -19,15 +21,9 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </div>
-        <div class="hero-text-box">
-            <h1>Welcome to the world of 3d-modeling</h1>
-        </div>
-        <div class="view-box">
-            <p>This page has</p>
-            <h1 id="view-counter">0</h1>
-            <p>views</p>
+        <div class="comments-box">
+            <div class="fb-comments" data-href="https://pointsonsa.z5.web.core.windows.net/" data-numposts="5" data-width=""></div>
         </div>
     </header>
-    <script src="views.js"></script>
 </body>
 </html>

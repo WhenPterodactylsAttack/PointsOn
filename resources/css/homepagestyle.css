@@ -10,7 +10,7 @@ html {
     color: rgb(53, 53, 53);
     font-family: 'Overpass', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     text-rendering: optimizeLegibility;
 }
 
@@ -29,13 +29,13 @@ header {
 
 .hero-text-box {
     position: absolute;
-    padding: 50px 100px;
+    padding: 50px 37px;
     top: 45%;
-    Left: 50%;
+    Left: 54.5%;
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border-radius: 75px;
+    border-radius: 25px;
     border-bottom: 10px solid rgb(56, 56, 56);
     color: rgb(53, 53, 53);
 }
@@ -44,14 +44,15 @@ header {
     position: absolute;
     padding: 25px 50px;
     top: 80%;
-    Left: 50%;
+    Left: 53%;
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border-radius: 75px;
+    border-radius: 25px;
     border-bottom: 10px solid rgb(56, 56, 56);
     color: rgb(53, 53, 53);
 }
+
 
 h1 {
     margin: 0;

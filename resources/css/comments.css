@@ -19,22 +19,22 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/background4.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     color: rgb(53, 53, 53);
 }
 
-.hero-text-box {
+.comments-box {
     position: absolute;
-    padding: 50px 100px;
-    top: 50%;
-    Left: 49.5%;
+    padding: 400px 100px;
+    top: 57%;
+    Left: 51%;
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border-radius: 25px;
+    border-radius: 75px;
     border-bottom: 10px solid rgb(56, 56, 56);
     color: rgb(53, 53, 53);
 }
@@ -42,22 +42,10 @@ header {
 h1 {
     margin: 0;
     color:rgb(56, 56, 56);
-    font-size: 300%;
+    font-size: 240%;
     font-weight: 300%;
     letter-spacing: 1px;
     word-spacing: 4px;
-    
-}
-
-h2 {
-    margin: 0;
-    color:rgb(56, 56, 56);
-    font-size: 200%;
-    font-weight: 300%;
-    letter-spacing: 8px;
-    list-style: none;
-    padding: 10px 10px;
-    text-align: center;
 }
 
 .logo {
@@ -100,23 +88,6 @@ h2 {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-border-bottom: 18px solid rgb(255, 123, 0);
-border-radius: 15px;
-}
-
-
-h2 li a:link,
-h2 li a:visited {
-    color: rgb(56, 56, 56);
-    text-decoration: none;
-    border-bottom: 2px solid rgb(255, 217, 0);
-    transition: border-bottom 0.2s;
-
-    text-align: center;
-
-}
-
-h2 li a:hover,
-h2 li a:active {
-    border-bottom: 3px solid rgb(255, 123, 0);
+    border-bottom: 18px solid rgb(255, 123, 0);
+    border-radius: 15px;
 }
