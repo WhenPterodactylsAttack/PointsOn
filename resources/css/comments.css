@@ -37,7 +37,7 @@ header {
     text-align: center;
     background-color: rgb(255, 255, 255);
     border-radius: 75px;
-    border-bottom: 10px solid rgb(56, 56, 56);
+    border-bottom: 0.5vmin solid rgb(56, 56, 56);
     color: rgb(53, 53, 53);
 }
 
